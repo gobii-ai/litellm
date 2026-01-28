@@ -11248,6 +11248,23 @@
         "supports_tool_choice": true,
         "supports_web_search": true
     },
+    "fireworks_ai/accounts/fireworks/models/kimi-k2p5": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 6e-07,
+        "litellm_provider": "fireworks_ai",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "output_cost_per_token": 3e-06,
+        "source": "https://fireworks.ai/pricing",
+        "supports_function_calling": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true,
+        "supports_vision": true
+    },
     "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct": {
         "input_cost_per_token": 3e-06,
         "litellm_provider": "fireworks_ai",
@@ -23546,6 +23563,21 @@
         "supports_reasoning": true,
         "supports_tool_choice": true
     },
+    "openrouter/moonshotai/kimi-k2.5": {
+        "input_cost_per_token": 6e-07,
+        "input_cost_per_token_cache_hit": 1e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "output_cost_per_token": 3e-06,
+        "supports_function_calling": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_tool_choice": true,
+        "supports_vision": true
+    },
     "openrouter/mistralai/devstral-2512:free": {
         "input_cost_per_image": 0,
         "input_cost_per_token": 0,
@@ -24226,6 +24258,20 @@
         "supports_reasoning": true,
         "supports_tool_choice": true,
         "supports_web_search": false
+    },
+    "openrouter/z-ai/glm-4.7": {
+        "cache_creation_input_token_cost": 0,
+        "cache_read_input_token_cost": 1.1e-07,
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.2e-06,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_tool_choice": true,
+        "source": "https://openrouter.ai/z-ai/glm-4.7"
     },
     "openrouter/z-ai/glm-4.6": {
         "input_cost_per_token": 4e-07,
